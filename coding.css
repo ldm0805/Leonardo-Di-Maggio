@@ -1,0 +1,81 @@
+/* Sfondo */
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+/* Font del testo */
+*{
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+}
+/* Sfonto trasparente */
+.transparency{
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 50px 200px 400px 200px;
+  border-radius: 20px;
+  padding: 50px 25px 50px 25px;
+}
+/* Dati immagine del brand */
+#brand{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: auto;
+}
+/* Personalizzazione del titolo principale */
+.top-page .title{
+  color: rgb(91, 255, 17);
+  text-align: center;
+  text-shadow: 3px 2px #030403;
+}
+/* Personalizzazione barra di navigazione */
+#navigation{
+  background-color:rgb(91, 255, 17);
+  padding: 2% 32%;
+}
+/* Peronalizzazione testo principale e trasformazione di spam in un tag di tipo block */
+main span {
+  color: white;
+  display:block;
+}
+/* Trasformazione di un tag in in-lineblock per inserire la checkbox */
+.square{
+ display: inline-block;
+}
+/* Aggiunta catattere speciale (freccia) nei titoli */
+.arrow:before {
+  content: '\279E';
+  display: inline-block;
+}
+/* Bordo stondato per le "barre di caricamento" */
+main div{
+  display: block;
+  border-radius: 4px;
+}
+/* Barra di caricamento arancione */
+.advancement-orange{
+  background-color:rgb(255, 165, 0);
+  width: 350px;
+  height: 14px;
+}
+/* Barra di caricamento verde */
+.advancement-green{
+  background-color:rgb(30, 255, 2);
+  width: 500px;
+  height: 14px;
+}
+/* Barra di caricamento rossa */
+.advancement-red{
+  background-color:rgb(255, 0, 0);
+  width: 100px;
+  height: 14px;
+}
+/* Piè di pagina */
+footer{
+  color: white;
+}
+/* Cambio colore del link a piè di pagina */
+footer a:hover{
+  text-decoration: underline;
+  color:blue;
